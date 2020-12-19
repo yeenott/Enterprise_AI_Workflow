@@ -1,0 +1,9 @@
+unique_id,timestamp,tag,period,rmse,model_version,model_version_note,runtime
+bc90217d-28bc-453c-b3f4-e11194870079,1608329938.771559,united_kingdom,"('2017-12-09', '2019-05-28')",{'rmse': 35277},0.1,supervised learning model for time-series,000:00:12
+aec758fa-74da-490c-acaf-e31e91dfd492,1608329945.457063,all,"('2017-11-29', '2019-05-22')",{'rmse': 44396},0.1,supervised learning model for time-series,000:00:06
+279d554f-1f33-4690-89ef-6b38330c133c,1608330091.995872,united_kingdom,"('2017-12-01', '2019-05-23')",{'rmse': 24589},0.1,supervised learning model for time-series,000:00:11
+99bcd95b-e4de-40d4-b540-81824852c7b0,1608330097.6948612,all,"('2017-11-30', '2019-05-31')",{'rmse': 25356},0.1,supervised learning model for time-series,000:00:05
+3edfe674-f1a3-4807-9d9d-dc5261da8a0b,1608330160.7529101,united_kingdom,"('2017-11-29', '2019-05-29')",{'rmse': 35650},0.1,supervised learning model for time-series,000:00:14
+940ce287-6b46-4059-a9bd-b1c14a6d3e8e,1608330167.624814,all,"('2017-12-01', '2019-05-31')",{'rmse': 45337},0.1,supervised learning model for time-series,000:00:06
+d316c997-0c10-4158-945c-4cce41150412,1608330340.220512,united_kingdom,"('2017-12-03', '2019-05-31')",{'rmse': 24532},0.1,supervised learning model for time-series,000:00:14
+5d8357da-c3b1-410b-8ffa-bf89b833b302,1608330347.008245,all,"('2017-12-02', '2019-05-29')",{'rmse': 55942},0.1,supervised learning model for time-series,000:00:06

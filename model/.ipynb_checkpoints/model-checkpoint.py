@@ -13,6 +13,10 @@ from sklearn.pipeline import Pipeline
 from logger import update_predict_log, update_train_log
 from cslib import fetch_ts, engineer_features
 
+import warnings
+with warnings.catch_warnings():
+      warnings.simplefilter("ignore", category=UserWarning)
+
 ## model specific variables (iterate the version and note with each change)
 MODEL_DIR = "models"
 MODEL_VERSION = 0.1
@@ -55,7 +59,7 @@ def _model_train(df,tag,test=False):
     pipe_rf = Pipeline(steps=[('scaler', StandardScaler()),
                               ('rf', RandomForestRegressor())])
     
-    grid = GridSearchCV(pipe_rf, param_grid=param_grid_rf, cv=5, iid=False, n_jobs=-1)
+    grid = GridSearchCV(pipe_rf, param_grid=param_grid_rf, cv=5, n_jobs=-1)
     grid.fit(X_train, y_train)
     y_pred = grid.predict(X_test)
     eval_rmse =  round(np.sqrt(mean_squared_error(y_test,y_pred)))
@@ -108,6 +112,7 @@ def model_train(data_dir,test=False):
             continue
         
         _model_train(df,country,test=test)
+    
     
 def model_load(prefix='sl',data_dir=None,training=True):
     """
@@ -234,6 +239,7 @@ if __name__ == "__main__":
     print("... models loaded: ",",".join(all_models.keys()))
 
     ## test predict
+    print("TESTING PREDICT")
     country='all'
     year='2018'
     month='01'

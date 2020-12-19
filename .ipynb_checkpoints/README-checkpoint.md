@@ -20,14 +20,10 @@ Run part2.ipynb
 ~$ python model/model.py
 ```
 
-### 4. To run API test, opening the API first 
+### 4. To run API test
 
 ```bash
 ~$ python app.py
-```
-
-```bash
-~$ python unittests/ApiTests.py
 ```
 
 ### 5. To run all of the tests

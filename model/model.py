@@ -13,6 +13,10 @@ from sklearn.pipeline import Pipeline
 from logger import update_predict_log, update_train_log
 from cslib import fetch_ts, engineer_features
 
+import warnings
+with warnings.catch_warnings():
+      warnings.simplefilter("ignore", category=UserWarning)
+
 ## model specific variables (iterate the version and note with each change)
 MODEL_DIR = "models"
 MODEL_VERSION = 0.1

@@ -11,8 +11,11 @@ import pandas as pd
 
 
 ## import model specific functions and variables
-from model.model import model_train, model_load, model_predict
-from model.model import MODEL_VERSION, MODEL_VERSION_NOTE
+#from model.model import model_train, model_load, model_predict
+#from model.model import MODEL_VERSION, MODEL_VERSION_NOTE
+from model import model_train, model_load, model_predict
+from model import MODEL_VERSION, MODEL_VERSION_NOTE
+
 
 
 

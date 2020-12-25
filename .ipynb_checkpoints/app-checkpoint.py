@@ -11,8 +11,11 @@ import pandas as pd
 
 
 ## import model specific functions and variables
-from model.model import model_train, model_load, model_predict
-from model.model import MODEL_VERSION, MODEL_VERSION_NOTE
+#from model.model import model_train, model_load, model_predict
+#from model.model import MODEL_VERSION, MODEL_VERSION_NOTE
+from model import model_train, model_load, model_predict
+from model import MODEL_VERSION, MODEL_VERSION_NOTE
+
 
 
 
@@ -37,9 +40,7 @@ def running():
 
 @app.route('/predict', methods=['GET','POST'])
 def predict():
-    """
-    basic predict function for the API
-    """
+   
     
     ## input checking
     if not request.json:
@@ -84,12 +85,6 @@ def predict():
 
 @app.route('/train', methods=['GET','POST'])
 def train():
-    """
-    basic predict function for the API
-
-    the 'mode' flag provides the ability to toggle between a test version and a 
-    production verion of training
-    """
     
     ## check for request data
     if not request.json:
@@ -111,9 +106,7 @@ def train():
         
 @app.route('/logs/<filename>',methods=['GET'])
 def logs(filename):
-    """
-    API endpoint to get logs
-    """
+
 
     if not re.search(".log",filename):
         print("ERROR: API (log): file requested was not a log file: {}".format(filename))

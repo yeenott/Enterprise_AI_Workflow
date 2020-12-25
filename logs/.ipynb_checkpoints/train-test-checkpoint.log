@@ -1,0 +1,36 @@
+unique_id,timestamp,tag,period,rmse,model_version,model_version_note,runtime
+b8b9db31-d6e9-4f51-ad12-f1dc126fb7ac,1608420162.4909282,united_kingdom,"('2017-12-01', '2018-12-01')",{'rmse': 0.5},0.1,test model,00:00:01
+b74014a7-cac5-4974-97f5-ca52da45e822,1608420162.4915159,united_kingdom,"('2017-12-01', '2018-12-01')",{'rmse': 0.5},0.1,test model,00:00:01
+1d68a7fd-ad01-402d-b6d5-4151fdaaa4b6,1608420224.29316,united_kingdom,"('2017-12-01', '2019-05-25')",{'rmse': 33568},0.1,supervised learning model for time-series,000:00:12
+1b092e8c-cacc-40fe-aa33-c0e74450d067,1608420229.864498,all,"('2017-12-02', '2019-05-31')",{'rmse': 29381},0.1,supervised learning model for time-series,000:00:05
+cbb18c8d-d646-47e5-8d98-551bfb7fcfd2,1608420321.7289548,united_kingdom,"('2017-11-29', '2019-05-30')",{'rmse': 30311},0.1,supervised learning model for time-series,000:00:10
+e6ab4a8e-219c-4f56-a7d9-589711cbe071,1608420327.8455539,all,"('2017-11-30', '2019-05-31')",{'rmse': 35933},0.1,supervised learning model for time-series,000:00:06
+4cf295e7-7249-42fb-a4e8-d59fc4d00320,1608420419.4667299,united_kingdom,"('2017-11-30', '2019-05-31')",{'rmse': 39406},0.1,supervised learning model for time-series,000:00:08
+02c45636-ebe6-4cf3-8c0b-8b4db33dda9f,1608420425.0560598,all,"('2017-11-30', '2019-05-29')",{'rmse': 34180},0.1,supervised learning model for time-series,000:00:05
+b730a2d4-1612-4b3a-8f92-71f6bbb4da45,1608420532.226777,united_kingdom,"('2017-12-03', '2019-05-30')",{'rmse': 47490},0.1,supervised learning model for time-series,000:00:11
+646d3d85-3c52-431b-8292-bf307d806321,1608420538.326402,all,"('2017-11-29', '2019-05-31')",{'rmse': 32722},0.1,supervised learning model for time-series,000:00:06
+cb1c1ffa-8235-4fbc-ac82-fc69af5fd874,1608420840.31434,portugal,"('2017-11-29', '2019-05-31')",{'rmse': 337},0.1,supervised learning model for time-series,000:00:13
+826428af-92dd-4cb7-a21a-1bf0d9ab290b,1608420849.6764438,united_kingdom,"('2017-11-29', '2019-05-31')",{'rmse': 20943},0.1,supervised learning model for time-series,000:00:09
+f4eebfa9-00f7-4fc0-920c-6ce7524f7eaf,1608420855.824783,hong_kong,"('2018-04-19', '2019-05-01')",{'rmse': 908},0.1,supervised learning model for time-series,000:00:06
+fbfa6c9a-fca1-4168-8ce0-c6338545440a,1608420868.945389,eire,"('2017-11-29', '2019-05-31')",{'rmse': 1717},0.1,supervised learning model for time-series,000:00:13
+8c29dbf8-e3d8-44e0-b765-091050e06614,1608420878.2373152,spain,"('2017-12-01', '2019-05-31')",{'rmse': 311},0.1,supervised learning model for time-series,000:00:09
+9afc4506-e1b2-4d05-bced-87900b533f62,1608420889.121823,france,"('2017-11-29', '2019-05-31')",{'rmse': 548},0.1,supervised learning model for time-series,000:00:10
+e4f452fb-8c0d-4f35-8228-7c9a2e88207c,1608420893.268835,singapore,"('2018-04-25', '2019-05-12')",{'rmse': 2995},0.1,supervised learning model for time-series,000:00:04
+049f9552-4526-4344-9bc1-3d412543c8e5,1608420903.129181,all,"('2017-11-29', '2019-05-31')",{'rmse': 18420},0.1,supervised learning model for time-series,000:00:09
+ec004843-fc7f-4e3f-9a7c-50fbc0a87301,1608420909.384176,norway,"('2017-12-05', '2019-05-11')",{'rmse': 80},0.1,supervised learning model for time-series,000:00:06
+91e3a6c0-dc1a-4653-bc41-49e1b35aaab7,1608420919.624622,germany,"('2017-11-29', '2019-05-31')",{'rmse': 495},0.1,supervised learning model for time-series,000:00:10
+d41a2ee5-734b-43f2-9b83-ddaef131084a,1608420926.938438,netherlands,"('2017-11-30', '2019-05-31')",{'rmse': 112},0.1,supervised learning model for time-series,000:00:07
+dc112bb6-55d3-41e7-b813-c423c1bc114a,1608421081.901008,united_kingdom,"('2017-12-06', '2019-05-31')",{'rmse': 36536},0.1,supervised learning model for time-series,000:00:12
+57572480-2c33-4691-aaf8-79d5b2a0e8cc,1608421088.221534,all,"('2017-11-29', '2019-05-29')",{'rmse': 48443},0.1,supervised learning model for time-series,000:00:06
+70755436-1572-4aeb-b9f9-bba07725db2e,1608421222.432373,united_kingdom,"('2017-11-29', '2019-05-31')",{'rmse': 42244},0.1,supervised learning model for time-series,000:00:13
+ff73528c-cdab-4ef4-8186-7ee64f710782,1608421229.193323,all,"('2017-12-01', '2019-05-31')",{'rmse': 38112},0.1,supervised learning model for time-series,000:00:06
+93b56e45-7afd-4fb7-9d41-8ce30ac0279b,1608421524.98693,united_kingdom,"('2017-11-30', '2019-05-27')",{'rmse': 49213},0.1,supervised learning model for time-series,000:00:12
+83dea14f-1d6e-4568-a21b-71ea9563660d,1608421531.7344158,all,"('2017-11-29', '2019-05-23')",{'rmse': 37436},0.1,supervised learning model for time-series,000:00:06
+d2d977c1-ada7-4ac2-a2df-bc4a68e95e86,1608421644.735666,united_kingdom,"('2017-11-29', '2019-05-30')",{'rmse': 29528},0.1,supervised learning model for time-series,000:00:13
+6ef4bc0f-dc61-4b58-a622-7b633a0f200f,1608421651.731725,all,"('2017-11-29', '2019-05-30')",{'rmse': 30372},0.1,supervised learning model for time-series,000:00:06
+9223a35e-6bb7-4259-a2aa-5bdac762bbc5,1608421793.604277,united_kingdom,"('2017-11-29', '2019-05-31')",{'rmse': 40921},0.1,supervised learning model for time-series,000:00:13
+8cba6e0c-f712-46e5-ae07-a6bbd2a55dc9,1608421800.077433,all,"('2017-12-03', '2019-05-27')",{'rmse': 39213},0.1,supervised learning model for time-series,000:00:06
+579f3978-e9b7-42ae-973c-dedfbc7e2bf7,1608851177.369123,united_kingdom,"('2017-11-30', '2019-05-25')",{'rmse': 30175},0.1,supervised learning model for time-series,000:00:12
+954efb12-94ed-473b-83df-fd77efbcf779,1608851184.9240582,all,"('2017-11-29', '2019-05-30')",{'rmse': 27951},0.1,supervised learning model for time-series,000:00:07
+d940872c-4e78-4011-a1f4-ac5f79cd27a7,1608851733.887767,united_kingdom,"('2017-12-01', '2018-12-01')",{'rmse': 0.5},0.1,test model,00:00:01
+e3b7fa89-3f4f-4727-b96d-fa012b1fc875,1608851796.1871722,united_kingdom,"('2017-12-01', '2018-12-01')",{'rmse': 0.5},0.1,test model,00:00:01

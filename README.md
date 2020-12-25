@@ -17,7 +17,7 @@ Run part2.ipynb
 ### 3. To train and test the model 
 
 ```bash
-~$ python model/model.py
+~$ ! python model/model.py
 ```
 
 ### 4. To run API test, opening the API first 
@@ -27,7 +27,7 @@ Run part2.ipynb
 ```
 
 ```bash
-~$ python unittests/ApiTests.py
+~$ ! python unittests/ApiTests.py
 ```
 
 ### 5. To run all of the tests

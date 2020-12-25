@@ -1,0 +1,4 @@
+unique_id,timestamp,tag,period,rmse,model_version,model_version_note,runtime
+f513f20f-8e44-4d39-b9f9-5bd1b99579d0,1608851297.5581,united_kingdom,"('2017-12-01', '2018-12-01')",{'rmse': 0.5},0.1,test model,00:00:01
+bfca00a6-a042-4624-b0be-37c04cc049a1,1608851297.558738,united_kingdom,"('2017-12-01', '2018-12-01')",{'rmse': 0.5},0.1,test model,00:00:01
+8c54b453-e1d0-4e8a-ad99-7c58dcde5dad,1608851467.6232882,united_kingdom,"('2017-12-01', '2018-12-01')",{'rmse': 0.5},0.1,test model,00:00:01
